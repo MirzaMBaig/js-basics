@@ -108,7 +108,7 @@ var education = {
     {
       "name": "Black Hawk College",
       "location": "Moline, Illinois",
-      "degree": "No Degree",
+      "degree": "",
       "majors": ["Accounting", "Psychology"],
       "dates": "1993-1995",
       "url": "http://www.bhc.edu/"
