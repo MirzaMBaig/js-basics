@@ -219,3 +219,9 @@ span {
     display: block;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 150px;
+  }
+}
