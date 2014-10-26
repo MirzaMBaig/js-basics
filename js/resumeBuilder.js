@@ -94,12 +94,12 @@ var bio = {
   "contacts": {
     "mobile": "309-716-6307",
     "email": "pauly13@sbcglobal.net",
-    "twitter": "",
+    "twitter": "@richpauly13",
     "github": "richpauly13",
-    "blog": "",
+    "facebook": "paul.chehak",
     "location": "Rock Island, Illinois"
   },
-  "skills": ["Python", "Java", "JavaScript", "HTML 5", "CSS", "Sharepoint", "Sharepoint Designer", "Excel"]
+  "skills": ["Python", "Java", "JavaScript", "HTML 5", "CSS", "Sharepoint", "Sharepoint Designer", "Excel", "Responsive Web Design"]
 };
 
 //  Education data.
@@ -153,7 +153,7 @@ bio.display = function() {
   var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
   var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
   var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-  var formattedBlog = HTMLblog.replace("%data%", bio.contacts.blog);
+  var formattedBlog = HTMLblog.replace("%data%", bio.contacts.facebook);
   var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
   $(".flex-box").append(formattedMobile);
   $(".flex-box").append(formattedEmail);
