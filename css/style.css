@@ -226,4 +226,7 @@ span {
     display: block;
     margin: auto;
   }
+  #map {
+    height: 250px;
+  }
 }
